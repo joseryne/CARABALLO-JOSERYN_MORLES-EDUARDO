@@ -8,7 +8,7 @@ public class Application {
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection("jdbc:h2:~/cambiarloalnombreeeedelabasededatos;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
+            connection = DriverManager.getConnection("jdbc:h2:~/caraballojoseryn_moleseduardo;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
 
         } catch (Exception e) {
             e.printStackTrace();
